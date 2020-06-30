@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YBNSCache (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YBNSCache (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YBNSCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YBNSCache: 7701e5ef19cf21581f0c436cbbcc8b1c19c75fc9
+
+PODFILE CHECKSUM: 2e40cf3641cd19f3f3dd719b5771f2aef5e3afe9
+
+COCOAPODS: 1.9.3

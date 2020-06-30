@@ -1,0 +1,6 @@
+framework module YBNSCache {
+  umbrella header "YBNSCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
