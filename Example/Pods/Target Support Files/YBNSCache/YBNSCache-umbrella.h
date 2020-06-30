@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "YBNSCacheManage.h"
+#import "YBNSModel.h"
 
 FOUNDATION_EXPORT double YBNSCacheVersionNumber;
 FOUNDATION_EXPORT const unsigned char YBNSCacheVersionString[];

@@ -13,14 +13,18 @@
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2A5ADD46ABA473DBAE4ED22929CB8770 /* Pods-YBNSCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 966DBD4CC7F35EDE5F1CADE224A22568 /* Pods-YBNSCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		3805270FCE3E57161613517A172FA295 /* YBNSCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959BB51E79F9E9DEABA903FEB43872ED /* YBNSCache-dummy.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D15BE1D899D70BF86C10F10EDB9C9DB /* YBNSCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 386B1FD0C99E46FF603E4A7B02488AFD /* YBNSCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD9600F51F03F236AB041FE24D4C6FD /* YBNSCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9230C2B16A3E85C03E1017D44008B1CA /* YBNSCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F60919780E96CD127D496EB0B9BB616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6122E0C2B37B2109C821D451240A9CEC /* Pods-YBNSCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BBA7138E50560646C1E65EB6BED26E /* Pods-YBNSCache_Tests-dummy.m */; };
+		68ED51C63AC536C0AA590AD213644F9A /* YBNSCacheManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A462CDA55ED9ED49A838F9753748DF /* YBNSCacheManage.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6CA5EF93BD509199312FF88B60EA095D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		6ECE7A3CB4E0790690D8B8F4EA902067 /* Pods-YBNSCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75060057B46FFDD01FA21DD2B9B66B2B /* Pods-YBNSCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7534F1A616D7007B52FD4D70252BC410 /* YBNSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B6AD09690990866CE9F4275B84766F /* YBNSModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACF1F52F24FA0F4830CBD71120BBC3A /* YBNSCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC6E9EF11A40AF1A5A983A45351367B /* YBNSCache-dummy.m */; };
+		8782B218EE07E36CACAA44E655C2B32F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D9F190DC7D877AFD8722EF5005941 /* ReplaceMe.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,13 +35,13 @@
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BC216A2C0043185D78F835F5FA09A106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE8C04CA89BB9D33215285274D96B233 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB4B83762F2CE3A1EE28765CCEA23B /* ReplaceMe.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F5E0E1CB6B2A51078F3E7CA952CCA96B /* YBNSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D97E8AA649E9E1C035397A3068280 /* YBNSModel.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F76D2830CF276AF32B61F0275060F7E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		F900716505F9D891E437F5BF7DCA7897 /* YBNSCacheManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1976C2748E5C592E4127A077ECEF9A /* YBNSCacheManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,26 +70,31 @@
 
 /* Begin PBXFileReference section */
 		054B9552A207F80C6EBCD85A3EE98F52 /* Pods-YBNSCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBNSCache_Example.modulemap"; sourceTree = "<group>"; };
+		091D9F190DC7D877AFD8722EF5005941 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YBNSCache/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0A43E5A87854F77A3315A14F107AA226 /* Pods-YBNSCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBNSCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		181A3CCC3D2B6785802356FB9EBF0ACC /* Pods-YBNSCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBNSCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		20A462CDA55ED9ED49A838F9753748DF /* YBNSCacheManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YBNSCacheManage.m; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2C770946F7F3B999351C886187EBFCA2 /* YBNSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBNSCache.modulemap; sourceTree = "<group>"; };
+		2E304794B1BFC5A8EF982811D5DA2A47 /* YBNSCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBNSCache-prefix.pch"; sourceTree = "<group>"; };
 		35E8C2E24333016FE60CA2C9769A9F24 /* YBNSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YBNSCache.framework; path = YBNSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		386B1FD0C99E46FF603E4A7B02488AFD /* YBNSCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBNSCache-umbrella.h"; sourceTree = "<group>"; };
 		3B14C8BB175DB9CF2A9664A0D6957BB5 /* Pods-YBNSCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBNSCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3DD2C8FC1CB84AED33FFB952E816295F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3FC9790096E11BB8C9C16C4A79A7137A /* Pods_YBNSCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBNSCache_Example.framework; path = "Pods-YBNSCache_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448F9F1F71178FAA7874AC27E09C873B /* Pods-YBNSCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBNSCache_Example-dummy.m"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4A76790A7700A1EC396261CCC343DCF4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4EB9E6ADE5825F1E3DF6AEA2BC9F88EB /* Pods-YBNSCache_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBNSCache_Tests-Info.plist"; sourceTree = "<group>"; };
 		55BBA7138E50560646C1E65EB6BED26E /* Pods-YBNSCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBNSCache_Tests-dummy.m"; sourceTree = "<group>"; };
 		574EF1343E379E4BDC3A0E97CC82937C /* Pods-YBNSCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YBNSCache_Tests.modulemap"; sourceTree = "<group>"; };
+		5A1976C2748E5C592E4127A077ECEF9A /* YBNSCacheManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YBNSCacheManage.h; sourceTree = "<group>"; };
 		5B0DD59041B417CDA385B2DF927A5AB9 /* Pods-YBNSCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBNSCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5C02785EC7815A42A85EAF25454D3B1E /* YBNSCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBNSCache.debug.xcconfig; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -93,29 +102,27 @@
 		7155504CCAB8BDDEFF347BF29EAD5434 /* Pods-YBNSCache_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBNSCache_Example-Info.plist"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		75060057B46FFDD01FA21DD2B9B66B2B /* Pods-YBNSCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBNSCache_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7A5DB4541FB7D354CF7D3DB8DEAC7F90 /* YBNSCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBNSCache-Info.plist"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D6185B61A8BCBFD7FDFFEE2492A9A43 /* YBNSCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBNSCache.release.xcconfig; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7F7EA7CB8D3370549BC2C6FE4BD53FED /* YBNSCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YBNSCache-Info.plist"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8BC6E9EF11A40AF1A5A983A45351367B /* YBNSCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBNSCache-dummy.m"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9230C2B16A3E85C03E1017D44008B1CA /* YBNSCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBNSCache-umbrella.h"; sourceTree = "<group>"; };
 		92E33A03AB3C968D46456B7550D53888 /* Pods_YBNSCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YBNSCache_Tests.framework; path = "Pods-YBNSCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		959BB51E79F9E9DEABA903FEB43872ED /* YBNSCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBNSCache-dummy.m"; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		966DBD4CC7F35EDE5F1CADE224A22568 /* Pods-YBNSCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBNSCache_Example-umbrella.h"; sourceTree = "<group>"; };
-		979107E211FB966AA6C0E738E64BD7A2 /* YBNSCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBNSCache.debug.xcconfig; sourceTree = "<group>"; };
 		97F7103B00E87B56AA33A98E976D4D60 /* Pods-YBNSCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBNSCache_Example-frameworks.sh"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A981BC798BD36CF96A839A6CCBE6A74B /* YBNSCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBNSCache-prefix.pch"; sourceTree = "<group>"; };
+		A85D97E8AA649E9E1C035397A3068280 /* YBNSModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YBNSModel.m; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B0BB57732D92D3F0D43C42ECEF6C312A /* YBNSCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YBNSCache.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B13517C0A3166750797470C4C1B48724 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		C4284A2396FAEE62D67F0524C6FCF112 /* Pods-YBNSCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBNSCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C5DB4B83762F2CE3A1EE28765CCEA23B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YBNSCache/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		CAF0A3A8B8232CB9B72FA3FE7256D324 /* YBNSCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YBNSCache.modulemap; sourceTree = "<group>"; };
+		C97E64CF655DF7718FD8ABC7CDDC429D /* YBNSCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YBNSCache.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB91F00E60DDD6F3CC08DFABC62782BB /* Pods-YBNSCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBNSCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CEFC311A7C350C5A32E2B1DC9713B47B /* Pods-YBNSCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBNSCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,24 +130,25 @@
 		CFD29076A5A0B9444F8026E83D197C0B /* Pods-YBNSCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBNSCache_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		F729D71D4B557AB6E025FBFB7D3301B9 /* YBNSCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBNSCache.release.xcconfig; sourceTree = "<group>"; };
+		E8B6AD09690990866CE9F4275B84766F /* YBNSModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YBNSModel.h; sourceTree = "<group>"; };
+		F91ACAA6A21196AB60E1C03285A843E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6B9A6256F706DBBE867EDC1229DF7F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60919780E96CD127D496EB0B9BB616 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		840467DCB4F0D7CD0856450130380763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6CA5EF93BD509199312FF88B60EA095D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D46C358639ACE2B04D2388A1833E804 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F76D2830CF276AF32B61F0275060F7E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,12 +174,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22F7D534F3B37A4CA604B0A50A5A9B0B /* Development Pods */ = {
+		182022D60D7AB968C6A54A4A33E434C8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FBD919FABCFCC4E23ADC700DCE73B0F5 /* YBNSCache */,
+				F91ACAA6A21196AB60E1C03285A843E4 /* LICENSE */,
+				4A76790A7700A1EC396261CCC343DCF4 /* README.md */,
+				C97E64CF655DF7718FD8ABC7CDDC429D /* YBNSCache.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		270BEDD7867FFBC2C19F59DC54FB873F /* Pods-YBNSCache_Tests */ = {
@@ -189,6 +199,18 @@
 			);
 			name = "Pods-YBNSCache_Tests";
 			path = "Target Support Files/Pods-YBNSCache_Tests";
+			sourceTree = "<group>";
+		};
+		2C5A1598A7B0AB0C0EF1AB0B0CD52213 /* YBNSCache */ = {
+			isa = PBXGroup;
+			children = (
+				091D9F190DC7D877AFD8722EF5005941 /* ReplaceMe.m */,
+				BBECE25CC135E75730FFA0B1AEBAA03E /* Core */,
+				182022D60D7AB968C6A54A4A33E434C8 /* Pod */,
+				7BC42D1EE344B7207DE51B07DCC1DAB8 /* Support Files */,
+			);
+			name = YBNSCache;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -229,6 +251,21 @@
 			path = "Target Support Files/Pods-YBNSCache_Example";
 			sourceTree = "<group>";
 		};
+		7BC42D1EE344B7207DE51B07DCC1DAB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C770946F7F3B999351C886187EBFCA2 /* YBNSCache.modulemap */,
+				8BC6E9EF11A40AF1A5A983A45351367B /* YBNSCache-dummy.m */,
+				7F7EA7CB8D3370549BC2C6FE4BD53FED /* YBNSCache-Info.plist */,
+				2E304794B1BFC5A8EF982811D5DA2A47 /* YBNSCache-prefix.pch */,
+				9230C2B16A3E85C03E1017D44008B1CA /* YBNSCache-umbrella.h */,
+				5C02785EC7815A42A85EAF25454D3B1E /* YBNSCache.debug.xcconfig */,
+				7D6185B61A8BCBFD7FDFFEE2492A9A43 /* YBNSCache.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YBNSCache";
+			sourceTree = "<group>";
+		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,16 +275,6 @@
 				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		85724C42531CCE35E2282C5CB9C71677 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B13517C0A3166750797470C4C1B48724 /* LICENSE */,
-				3DD2C8FC1CB84AED33FFB952E816295F /* README.md */,
-				B0BB57732D92D3F0D43C42ECEF6C312A /* YBNSCache.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		85FC0B84EE5CBE2078114B17F52456AB /* Products */ = {
@@ -278,21 +305,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AB3C63534A81421E1C1DE8D7D1A74D9F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CAF0A3A8B8232CB9B72FA3FE7256D324 /* YBNSCache.modulemap */,
-				959BB51E79F9E9DEABA903FEB43872ED /* YBNSCache-dummy.m */,
-				7A5DB4541FB7D354CF7D3DB8DEAC7F90 /* YBNSCache-Info.plist */,
-				A981BC798BD36CF96A839A6CCBE6A74B /* YBNSCache-prefix.pch */,
-				386B1FD0C99E46FF603E4A7B02488AFD /* YBNSCache-umbrella.h */,
-				979107E211FB966AA6C0E738E64BD7A2 /* YBNSCache.debug.xcconfig */,
-				F729D71D4B557AB6E025FBFB7D3301B9 /* YBNSCache.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YBNSCache";
-			sourceTree = "<group>";
-		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +328,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BBECE25CC135E75730FFA0B1AEBAA03E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5A1976C2748E5C592E4127A077ECEF9A /* YBNSCacheManage.h */,
+				20A462CDA55ED9ED49A838F9753748DF /* YBNSCacheManage.m */,
+				E8B6AD09690990866CE9F4275B84766F /* YBNSModel.h */,
+				A85D97E8AA649E9E1C035397A3068280 /* YBNSModel.m */,
+			);
+			name = Core;
+			path = YBNSCache/Classes/Core;
+			sourceTree = "<group>";
+		};
 		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,12 +355,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				22F7D534F3B37A4CA604B0A50A5A9B0B /* Development Pods */,
+				D4C5AF29785D168CE7E34D94A63FBB8B /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				85FC0B84EE5CBE2078114B17F52456AB /* Products */,
 				90EF9557FA6183BA13466350FD322D28 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D4C5AF29785D168CE7E34D94A63FBB8B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C5A1598A7B0AB0C0EF1AB0B0CD52213 /* YBNSCache */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -347,25 +379,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FBD919FABCFCC4E23ADC700DCE73B0F5 /* YBNSCache */ = {
-			isa = PBXGroup;
-			children = (
-				C5DB4B83762F2CE3A1EE28765CCEA23B /* ReplaceMe.m */,
-				85724C42531CCE35E2282C5CB9C71677 /* Pod */,
-				AB3C63534A81421E1C1DE8D7D1A74D9F /* Support Files */,
-			);
-			name = YBNSCache;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C42A8BAB346F3B468086B6F431524FC /* Headers */ = {
+		2965606B95CF0580B1C736E9DC06A249 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D15BE1D899D70BF86C10F10EDB9C9DB /* YBNSCache-umbrella.h in Headers */,
+				5AD9600F51F03F236AB041FE24D4C6FD /* YBNSCache-umbrella.h in Headers */,
+				F900716505F9D891E437F5BF7DCA7897 /* YBNSCacheManage.h in Headers */,
+				7534F1A616D7007B52FD4D70252BC410 /* YBNSModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,12 +428,12 @@
 /* Begin PBXNativeTarget section */
 		66158D69EB1B2E325C6136FE8D93FDAC /* YBNSCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBE5416CD74B04B4772753EB64EC745D /* Build configuration list for PBXNativeTarget "YBNSCache" */;
+			buildConfigurationList = 2166863DD9907D406F0F131C128FBF94 /* Build configuration list for PBXNativeTarget "YBNSCache" */;
 			buildPhases = (
-				2C42A8BAB346F3B468086B6F431524FC /* Headers */,
-				86F1E42CF2704CA1059CD33AA0FFF57D /* Sources */,
-				9D46C358639ACE2B04D2388A1833E804 /* Frameworks */,
-				5581B2031A5F481EDE3A85E26EA80DC1 /* Resources */,
+				2965606B95CF0580B1C736E9DC06A249 /* Headers */,
+				9952EFD05F56FC52DFACE4DE140DA43E /* Sources */,
+				6B9A6256F706DBBE867EDC1229DF7F83 /* Frameworks */,
+				BA6C98414057AED4DDBB19ADEF552810 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -516,13 +539,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5581B2031A5F481EDE3A85E26EA80DC1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,23 +553,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		86F1E42CF2704CA1059CD33AA0FFF57D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		BA6C98414057AED4DDBB19ADEF552810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8C04CA89BB9D33215285274D96B233 /* ReplaceMe.m in Sources */,
-				3805270FCE3E57161613517A172FA295 /* YBNSCache-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		87228D41DADC5D55ABC3543D367BB7B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A064ED998AD095D43F57409CF82B4D9F /* Pods-YBNSCache_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9952EFD05F56FC52DFACE4DE140DA43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8782B218EE07E36CACAA44E655C2B32F /* ReplaceMe.m in Sources */,
+				7ACF1F52F24FA0F4830CBD71120BBC3A /* YBNSCache-dummy.m in Sources */,
+				68ED51C63AC536C0AA590AD213644F9A /* YBNSCacheManage.m in Sources */,
+				F5E0E1CB6B2A51078F3E7CA952CCA96B /* YBNSModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,38 +785,6 @@
 			};
 			name = Debug;
 		};
-		90EC546211E36991FF9C301C30E25B03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F729D71D4B557AB6E025FBFB7D3301B9 /* YBNSCache.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YBNSCache/YBNSCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YBNSCache/YBNSCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YBNSCache/YBNSCache.modulemap";
-				PRODUCT_MODULE_NAME = YBNSCache;
-				PRODUCT_NAME = YBNSCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		98D11F1DDF0EF73E6DE9E6F0614F1774 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEFC311A7C350C5A32E2B1DC9713B47B /* Pods-YBNSCache_Tests.debug.xcconfig */;
@@ -824,6 +817,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		99E7E1B5AA005F1F4AEE04B63697E348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6185B61A8BCBFD7FDFFEE2492A9A43 /* YBNSCache.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YBNSCache/YBNSCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBNSCache/YBNSCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBNSCache/YBNSCache.modulemap";
+				PRODUCT_MODULE_NAME = YBNSCache;
+				PRODUCT_NAME = YBNSCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B2EA8B1741E4CAF2C3231C1F9C16ADE2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -958,9 +983,9 @@
 			};
 			name = Release;
 		};
-		DC1DCC92D22E607DD3251B14CF72D63A /* Debug */ = {
+		F60493F0DCE839AB968779D2F90039EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 979107E211FB966AA6C0E738E64BD7A2 /* YBNSCache.debug.xcconfig */;
+			baseConfigurationReference = 5C02785EC7815A42A85EAF25454D3B1E /* YBNSCache.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1001,6 +1026,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2166863DD9907D406F0F131C128FBF94 /* Build configuration list for PBXNativeTarget "YBNSCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60493F0DCE839AB968779D2F90039EA /* Debug */,
+				99E7E1B5AA005F1F4AEE04B63697E348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1024,15 +1058,6 @@
 			buildConfigurations = (
 				C5CD88906560D7A47E80403DD2FA181D /* Debug */,
 				B2EA8B1741E4CAF2C3231C1F9C16ADE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FBE5416CD74B04B4772753EB64EC745D /* Build configuration list for PBXNativeTarget "YBNSCache" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC1DCC92D22E607DD3251B14CF72D63A /* Debug */,
-				90EC546211E36991FF9C301C30E25B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
